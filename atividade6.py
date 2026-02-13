@@ -3,6 +3,7 @@ import flet as ft
 def main(page: ft.Page):
     # Variável com a imagem certa
     imagem_correta = "Gato"
+    page.bgcolor = "blue"
     
     # Texto para feedback
     mensagem = ft.Text(
